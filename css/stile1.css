@@ -1,0 +1,36 @@
+
+:root{
+--color-principal: #007AEE ;
+--color-secundario: #1768BB;
+--text-color: #001326;
+--text-color-2: #DFEFFF;
+--font-principal: "citrus-gothic-solid", sans-serif;
+--font-text: "trade-gothic-next", sans-serif;
+}
+
+header{
+    background-color: var(--color-principal);
+    padding: 1rem;
+}
+
+.header{
+font-family: var(--font-principal);
+color: var(--text-color);
+margin-left: 1.5%;
+margin-right: 1.5%;
+}
+.header:hover{
+background-color: var(--color-secundario);
+text-size-adjust: 0.3rem;
+}
+
+#menu-lateral{
+margin-left: 25%;
+}
+
+.title{
+font-family: var(--font-principal);
+color: var(--text-color);
+text-align: center;
+margin-top: 5%;
+}
