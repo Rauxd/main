@@ -11,6 +11,7 @@
 header{
     background-color: var(--color-principal);
     padding: 1rem;
+    border-radius: 12px;
 }
 
 .header{
@@ -25,7 +26,7 @@ text-size-adjust: 0.3rem;
 }
 
 #menu-lateral{
-margin-left: 25%;
+margin-left: 34em;
 }
 
 .title{
