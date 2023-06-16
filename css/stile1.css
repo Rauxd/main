@@ -35,3 +35,21 @@ color: var(--text-color);
 text-align: center;
 margin-top: 5%;
 }
+
+#animation{
+    height: 100px;
+    width: 100px;
+    background: #001326;
+    animation-name: teste;
+    animation-duration: 5s;
+}
+
+/**#animation :hover{
+
+}*/
+
+@keyframes teste {
+    0%{background: #001326;}
+    50%{background: #DFEFFF;}
+    100%{background: #1768BB;}
+}
